@@ -29,7 +29,8 @@ export const MainContainer = () => {
            <img src="./assets/images/characters.png" alt="Characters - logo" /><p>Characters</p> 
         </div>
       <div>{dataHeroe.map((item, index)=>{
-          return  <Cards key={index} datos={item}/>
+         
+          return  <Cards key={index} datos={item} comic={item.comics.items}/>
       })}
     </div>
       <Footer />
