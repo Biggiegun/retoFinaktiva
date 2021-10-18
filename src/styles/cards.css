@@ -1,2 +1,10 @@
 /*Acá van los estilos del componente Cards*/
-
+body{
+    background-color: rgb(236, 232, 232);
+}
+#cardContainer{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}

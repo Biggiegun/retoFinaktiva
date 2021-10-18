@@ -14,7 +14,9 @@
     background-color: #fff;
 }
 .modal-header{
-    padding: 1px;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
 }
 .modal-title{
     margin: 0;
@@ -23,4 +25,9 @@
     padding: 10px;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+}
+.button{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
 }

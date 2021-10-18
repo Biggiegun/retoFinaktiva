@@ -1,0 +1,13 @@
+/* styles here!! */
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+#main{
+    display: flex;
+}
+#cardDiv{
+    margin: auto;
+}

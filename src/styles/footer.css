@@ -1,1 +1,6 @@
 /*Acá van los estilos del footer*/
+#padreFooter{
+    background-color: black;
+    color: rgb(202, 199, 199);
+    padding: 10px;
+}

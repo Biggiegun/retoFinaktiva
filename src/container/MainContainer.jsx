@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Cards } from "../components/Cards";
+import { Favoritos } from "../components/Favoritos";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
+import '../styles/mainContainer.css'
 
 const url =
   "https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=59d547cd60f833c646ae63799d9ef4fd&hash=4cd4dd7f43e711c4ef22198dfb01916a";
@@ -65,7 +67,8 @@ export const MainContainer = () => {
         <img src="./assets/images/characters.png" alt="Characters - logo" />
         <p>Characters</p>
       </div>
-      <div>
+      <div id="main">
+      <div id="container">
         <div>
         {error && (
           <div>
@@ -77,10 +80,13 @@ export const MainContainer = () => {
           </div>
         )}
       </div>
-      
+      <div id="cardDiv">
         {dataHeroe.map((item, index) => {
           return <Cards key={index} datos={item} comic={item.comics.items} />;
         })}
+      </div>
+      </div>
+      <Favoritos/>
       </div>
       <Footer />
     </div>
