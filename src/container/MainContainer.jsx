@@ -19,7 +19,7 @@ export const MainContainer = () => {
     setDataHeroe(data.data.results);
   };
 
-  console.log(dataHeroe);
+  //console.log(dataHeroe);
 
   useEffect(() => {
     getHeroes();
@@ -35,7 +35,7 @@ export const MainContainer = () => {
     } else {
       const res = await fetch(`https://gateway.marvel.com:443/v1/public/characters?name=${searchTerm}&ts=1&apikey=59d547cd60f833c646ae63799d9ef4fd&hash=4cd4dd7f43e711c4ef22198dfb01916a`);
       const data = await res.json();
-      console.log(data.data.results);
+      //console.log(data.data.results);
       setDataHeroe(data.data.results);
       setError(false);
       if (!dataHeroe.length) {

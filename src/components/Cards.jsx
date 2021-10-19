@@ -43,7 +43,7 @@ export const Cards = (props) => {
   return (
     <>
       <div id="cardContainer">
-        <img src={`${thumbnail.path}/portrait_xlarge.jpg`} alt="Heroe - logo" />
+        <img id="heroeLogo" src={`${thumbnail.path}/portrait_xlarge.jpg`} alt="Heroe - logo" />
         <h3>{name}</h3>
         <p>{description}</p>
         <div>

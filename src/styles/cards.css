@@ -1,10 +1,66 @@
 /*Acá van los estilos del componente Cards*/
-body{
-    background-color: rgb(236, 232, 232);
-}
-#cardContainer{
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-}
+
+
+/* Small devices (landscape phones) */
+@media (max-width: 768px) { 
+    body{
+        background-color: rgb(236, 232, 232);
+    }
+    #cardContainer{
+        background-color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+    #heroeLogo{
+        border-radius: 2em;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body{
+        background-color: rgb(236, 232, 232);
+    }
+    #cardContainer{
+        background-color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+    #heroeLogo{
+        border-radius: 5em;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    body{
+        background-color: rgb(236, 232, 232);
+    }
+    #cardContainer{
+        background-color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+    #heroeLogo{
+        border-radius: 5em;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    body{
+        background-color: rgb(236, 232, 232);
+    }
+    #cardContainer{
+        background-color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+    #heroeLogo{
+        border-radius: 5em;
+    }
+ }

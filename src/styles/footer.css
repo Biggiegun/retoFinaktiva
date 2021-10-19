@@ -1,6 +1,38 @@
 /*Acá van los estilos del footer*/
-#padreFooter{
-    background-color: black;
-    color: rgb(202, 199, 199);
-    padding: 10px;
+
+
+/* Small devices (landscape phones) */
+@media (max-width: 768px) { 
+    #padreFooter{
+        background-color: black;
+        color: rgb(202, 199, 199);
+        padding: 10px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #padreFooter{
+        background-color: black;
+        color: rgb(202, 199, 199);
+        padding: 10px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #padreFooter{
+        background-color: black;
+        color: rgb(202, 199, 199);
+        padding: 10px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #padreFooter{
+        background-color: black;
+        color: rgb(202, 199, 199);
+        padding: 10px;
+    }
 }
