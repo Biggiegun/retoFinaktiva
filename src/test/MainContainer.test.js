@@ -17,7 +17,7 @@ describe('Pruebas en MainContainer', ()=>{
       component = null;
     });
 
-    it('Renderizar componente', ()=>{
+    it('Nodo en componente', ()=>{
         expect(component.exists("#output")).toBe(false);
     })
 })
